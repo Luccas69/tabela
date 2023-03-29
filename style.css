@@ -1,0 +1,27 @@
+:root{
+    --cor-primaria: #D3310C;
+    --cor-secundaria:#1A1A1A;
+    --cor-terciaria:#E2E2E2;
+    --cor-quartenaria: #FFFFFF;
+}
+
+.tabela{
+    color: #010101;
+    width: 100%;
+    border: 1px solid #010101;
+    border-collapse: collapse;  
+}
+.tabela td, .tabela th{
+    border: 1px solid #010101;
+    padding: 10px;
+}
+.tabela th{
+    color: #ffff;
+    background-color: #010101;
+}
+.tabela tr:nth-child(odd){
+    background-color: #E2E2E2;
+}
+.tabela tr:hover {
+    background-color: rgb(233, 233, 146)
+}
