@@ -8,11 +8,14 @@
 .tabela{
     color: #010101;
     width: 100%;
-    border: 1px solid #010101;
+    /* border: 1px solid #010101; */
     border-collapse: collapse;  
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
 }
 .tabela td, .tabela th{
-    border: 1px solid #010101;
+    /* border: 0px solid #010101; */
     padding: 10px;
 }
 .tabela th{
@@ -24,4 +27,11 @@
 }
 .tabela tr:hover {
     background-color: rgb(233, 233, 146)
+}
+.titulo{
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
 }
